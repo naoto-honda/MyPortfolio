@@ -1,10 +1,22 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+import Skills from './pages/Skills';
+import Works from './pages/Works';
 
 function App() {
   return (
-    <div className="text-center p-10 bg-blue-500 text-white">
-      <h1 className="text-3xl font-bold">Tailwind 導入成功！</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Skills" element={<Skills />} />
+        <Route path="/Works" element={<Works />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,11 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    './index.html',
-    './src/**/*.{js,ts,jsx,tsx}', // JSX/TSXを使っているのでこのように設定
-  ],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-blue': '#00D8FF',
+      },
+    },
   },
   plugins: [],
 };
