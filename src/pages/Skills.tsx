@@ -1,6 +1,6 @@
-import Footer from '../../components/Footer';
-import H2 from '../../components/H2';
-import Header from '../../components/Header';
+import Footer from '../components/Footer';
+import H2 from '../components/H2';
+import Header from '../components/Header';
 
 const Skills = () => {
   return (

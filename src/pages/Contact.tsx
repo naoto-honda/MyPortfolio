@@ -1,7 +1,7 @@
 import { ChangeEvent, FormEvent, useState } from 'react';
-import Footer from '../../components/Footer';
-import H2 from '../../components/H2';
-import Header from '../../components/Header';
+import Footer from '../components/Footer';
+import H2 from '../components/H2';
+import Header from '../components/Header';
 
 // フォームデータの型
 interface FormData {

@@ -1,6 +1,6 @@
-import Footer from '../../components/Footer';
-import H2 from '../../components/H2';
-import Header from '../../components/Header';
+import Footer from '../components/Footer';
+import H2 from '../components/H2';
+import Header from '../components/Header';
 
 const About = () => {
   return (
@@ -41,7 +41,7 @@ const About = () => {
               </li>
             </ul>
           </div>
-          <div className="w-full md:w-1/2 bg-orange-100 flex justify-center">
+          <div className="w-full md:w-1/2 flex justify-center">
             <img
               src="/img/myPortfolio.jpg"
               alt="自分の写真"
