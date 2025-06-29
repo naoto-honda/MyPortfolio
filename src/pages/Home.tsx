@@ -193,7 +193,7 @@ const Home = () => {
               </Link>
             </div>
 
-            <div className="lg:w-1/2 sm:w-full">
+            <div className="w-full">
               <div className="bg-white rounded-xl shadow-lg p-8">
                 {skills.map((skill, index) => (
                   <div key={index} className="mb-6">
