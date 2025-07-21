@@ -23,11 +23,11 @@ const Works = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'ポートフォリオサイト',
+      title: 'ECサイト',
       description:
         'React、TypeScript、Tailwind CSSを使用したモダンなポートフォリオサイト。レスポンシブデザインとアニメーションを実装し、ユーザー体験を重視した設計を行いました。',
       technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
-      image: '/img/portfolio.jpg',
+      image: '/img/ec-site-image.jpg',
       github: 'https://github.com/yourusername/portfolio',
       demo: 'https://your-portfolio.com',
       category: 'personal',
