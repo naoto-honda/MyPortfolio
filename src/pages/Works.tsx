@@ -49,9 +49,9 @@ const Works = () => {
       description:
         'ドラッグ&ドロップ機能付きのタスク管理アプリケーション。React DnD、LocalStorageを使用し、オフラインでも動作する設計にしました。',
       technologies: ['React', 'React DnD', 'LocalStorage', 'CSS'],
-      image: '/img/task-manager.jpg',
-      github: 'https://github.com/yourusername/task-manager',
-      demo: 'https://task-manager-demo.com',
+      image: '/img/task-manager-image.jpg',
+      github: 'https://github.com/naoto-honda/task-manager',
+      demo: 'https://task-manager-asv1.vercel.app/login',
       category: 'personal',
     },
     // {
